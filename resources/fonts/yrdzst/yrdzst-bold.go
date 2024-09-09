@@ -3,7 +3,7 @@ package yrdzst
 import (
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	assets "github.com/wenlng/go-captcha-assets/bindata/fonts/yrdzst"
+	assets "github.com/lukhaiminh/go-captcha-assets/bindata/fonts/yrdzst"
 )
 
 func GetFont() (font *truetype.Font, err error) {

@@ -3,7 +3,7 @@ package fzshengsksjw
 import (
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	assets "github.com/wenlng/go-captcha-assets/bindata/fonts/fzshengsksjw"
+	assets "github.com/lukhaiminh/go-captcha-assets/bindata/fonts/fzshengsksjw"
 )
 
 func GetFont() (font *truetype.Font, err error) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	assets "github.com/wenlng/go-captcha-assets/bindata/shapes"
-	"github.com/wenlng/go-captcha-assets/helper"
+	assets "github.com/lukhaiminh/go-captcha-assets/bindata/shapes"
+	"github.com/lukhaiminh/go-captcha-assets/helper"
 )
 
 func GetShapes() (map[string]image.Image, error) {
